@@ -186,7 +186,7 @@ for deploy in getting_deploy_list_result:
     old_name = "outputs/report.md"
     new_name = f"report_{deployment}_{namespace}_{timenow}.md"
     rename_file(old_name, new_name)
-    exit()
+    
     # pods = getting_pods(described_deployment)
     # logger.info(pods)
     # pods = dict_to_json(pods)
