@@ -1,6 +1,8 @@
-Pelo que conversamos nos últimos dias sobre o PCI DSS, eu focaria em **informações que realmente evidenciem a postura de segurança do workload**, e ignoraria tudo o que é operacional ou informativo.
+Você será meu desenvolvedor que irá projetar e desenvolver meus scripts para levantamento de evidências para a auditoria de PCI-DSS.
 
-Eu dividiria em categorias.
+Vamos focar em **informações que realmente evidenciem a postura de segurança do workload**, e ignorar tudo o que é operacional ou informativo.
+
+Vamos dividir em categorias.
 
 ## 1. Identificação do workload (Obrigatório)
 
@@ -37,7 +39,7 @@ command
 args
 ```
 
-Aqui você consegue verificar:
+Aqui será para verificar:
 
 * Há mais de um container?
 * Existe banco de dados junto?
@@ -48,7 +50,7 @@ Aqui você consegue verificar:
 
 ## 3. Security Context (Muito importante)
 
-Essa é provavelmente a parte mais importante.
+Essa é a parte mais importante.
 
 ```text
 securityContext.runAsNonRoot
@@ -62,7 +64,7 @@ securityContext.capabilities.drop
 securityContext.seccompProfile.type
 ```
 
-Esses itens geram diversos controles de auditoria.
+Esses itens gerarão diversos controles de auditoria.
 
 Exemplo:
 
@@ -96,7 +98,7 @@ image
 imagePullPolicy
 ```
 
-Você pode verificar:
+Assim poderemos verificar:
 
 * latest?
 * digest?
@@ -115,7 +117,7 @@ env.valueFrom.secretKeyRef
 volumes.secret
 ```
 
-Esses indicam se o container consome Secrets.
+Esses indicarão se o container consome Secrets.
 
 Também vale verificar:
 
@@ -151,7 +153,7 @@ Especialmente:
 * emptyDir
 * persistentVolumeClaim
 
-`hostPath` merece atenção especial.
+`hostPath` merecerá atenção especial.
 
 ---
 
@@ -173,7 +175,7 @@ readinessProbe
 startupProbe
 ```
 
-Não é um requisito PCI, mas demonstra maturidade operacional.
+Não é um requisito PCI, mas vai demonstrar maturidade operacional.
 
 ---
 
@@ -186,7 +188,7 @@ hostIPC
 dnsPolicy
 ```
 
-Se algum deles estiver habilitado, merece atenção.
+Se algum deles estiver habilitado, merecerá atenção.
 
 ---
 
@@ -204,7 +206,7 @@ Normalmente apenas informativo.
 
 ## 13. Annotations
 
-Eu só analisaria estas:
+Só vamos analisar estas:
 
 ```text
 iam.gke.io/*
@@ -224,13 +226,13 @@ kubectl.kubernetes.io/*
 meta.helm.sh/*
 ```
 
-Essas são úteis para operação, mas pouco agregam à auditoria.
+Essas são úteis para operação, mas pouco agregarão à auditoria.
 
 ---
 
-# O que eu ignoraria completamente
+# Vamos ignoraria completamente
 
-Esses campos só aumentam o volume do relatório:
+Esses campos só aumentariam o volume do relatório:
 
 ```text
 status
@@ -256,9 +258,9 @@ Eles dificilmente trazem evidências relevantes para PCI.
 
 ---
 
-# Se eu fosse montar um scanner PCI DSS para GKE
+# Vamos montar um scanner PCI DSS para GKE
 
-Eu criaria uma estrutura semelhante a esta:
+Vamos criar essa estrutura:
 
 | Categoria        | Regras                                 |
 | ---------------- | -------------------------------------- |
@@ -275,12 +277,18 @@ Eu criaria uma estrutura semelhante a esta:
 
 Isso já cobre cerca de **90% das verificações** que podem ser feitas apenas analisando o manifesto do Deployment.
 
-## Minha sugestão
+## Atenção
 
-Como você está desenvolvendo um scanner para a auditoria PCI DSS, eu estruturaria as regras em três níveis:
+Para este scanner para a auditoria PCI DSS, vamos estrutura as regras em três níveis:
 
 * **Critical**: `privileged=true`, `allowPrivilegeEscalation=true`, uso de `hostPath`, credenciais em texto claro, aplicação e banco no mesmo Pod.
 * **Warning**: ausência de `readOnlyRootFilesystem`, ausência de `runAsNonRoot`, imagens sem digest, uso da tag `latest`.
 * **Info**: versão da imagem, recursos (`requests`/`limits`), Helm, Workload Identity, probes, labels e annotations relevantes.
 
 Esse formato produz um relatório objetivo, priorizando os riscos que realmente merecem atenção durante a auditoria.
+
+Desenvolva o script em Python.
+
+O script deverá imprimir em "logs/PCI-DSS_evidences_YYYYMMDD_HHMMSS.log" as informações de cada operação.
+
+O resultado do relatório na estrutura de categoria e regras deve ser salvo no arquivo "outputs/relatório.md"
