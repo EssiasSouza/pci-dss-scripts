@@ -1,0 +1,5 @@
+/deployments
+/venv
+/logs
+/outputs
+__pycache__
