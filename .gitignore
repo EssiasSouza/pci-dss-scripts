@@ -1,5 +1,5 @@
 /deployments
 /venv
-/logs
-/outputs
+logs/*
+outputs/*
 __pycache__
