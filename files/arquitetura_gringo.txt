@@ -1,0 +1,55 @@
+environment:
+  cloud_provider: Google Cloud Platform (GCP)
+  architecture: Cloud Native
+  orchestration: Kubernetes
+  kubernetes:
+    platform: GKE Autopilot
+    workloads: Microservices
+    package_manager: Helm
+    GitOps: ArgoCD
+    custom_resources:
+      - External Secrets Operator (ESO)
+
+networking:
+  virtual_network: VPC
+  dns:
+    service: Cloud DNS
+  load_balancing: Google Cloud Load Balancing
+
+security:
+  ips: Okta
+  identity:
+    - Cloud IAM
+  secrets:
+    - Secret Manager
+  encryption:
+    - Cloud KMS
+  artifact_security:
+    - Artifact Registry
+    - Binary Authorization
+  posture_management:
+    - Security Command Center (SCC)
+
+observability:
+  logging:
+    - Cloud Logging
+    - Cloud Audit Logs
+  monitoring:
+    - Cloud Monitoring
+    - Dynatrace
+
+storage:
+  container_images:
+    - Artifact Registry
+
+automation:
+  infrastructure:
+    - Infrastructure as Code
+    - CI/CD Pipelines
+  scripting:
+    - Python
+    - Shell Script
+
+compliance:
+  frameworks:
+    - CIS Google Cloud Benchmark

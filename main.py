@@ -1,9 +1,3 @@
-"""
-main.py
-
-Main execution flow for PCI DSS Evidence Scanner.
-"""
-
 import argparse
 
 from logger import (
@@ -22,9 +16,6 @@ from report import generate_markdown_report
 
 
 def parse_arguments():
-    """
-    Parse application arguments.
-    """
 
     parser = argparse.ArgumentParser(
         description=(
@@ -43,9 +34,6 @@ def parse_arguments():
 
 
 def main():
-    """
-    Main application execution flow.
-    """
 
     logger = setup_logger()
 

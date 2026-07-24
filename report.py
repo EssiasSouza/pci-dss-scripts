@@ -1,9 +1,3 @@
-"""
-report.py
-
-Generates the final Markdown PCI DSS evidence report.
-"""
-
 import os
 from collections import defaultdict
 
@@ -29,9 +23,6 @@ REPORT_CATEGORIES = [
 
 
 def create_output_directory():
-    """
-    Creates the output directory if it does not exist.
-    """
 
     os.makedirs(
         OUTPUT_DIRECTORY,
@@ -40,9 +31,6 @@ def create_output_directory():
 
 
 def group_findings_by_category(findings):
-    """
-    Groups findings by category.
-    """
 
     grouped = defaultdict(list)
 
@@ -55,9 +43,6 @@ def group_findings_by_category(findings):
 
 
 def generate_header(report):
-    """
-    Generates report header.
-    """
 
     workload = report.workload.identification
 
@@ -72,9 +57,6 @@ def generate_header(report):
 
 
 def generate_category_section(category, findings):
-    """
-    Generates a Markdown section for a category.
-    """
 
     content = []
 
@@ -113,9 +95,6 @@ def generate_category_section(category, findings):
 
 
 def generate_report_content(report):
-    """
-    Generates complete Markdown content.
-    """
 
     content = []
 
@@ -143,9 +122,6 @@ def generate_report_content(report):
 
 
 def save_report(content):
-    """
-    Saves Markdown report.
-    """
 
     create_output_directory()
 
@@ -168,9 +144,6 @@ def save_report(content):
 
 
 def generate_markdown_report(report: PCIReport):
-    """
-    Main report generation function.
-    """
 
     content = generate_report_content(
         report

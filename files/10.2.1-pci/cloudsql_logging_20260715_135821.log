@@ -1,0 +1,302 @@
+[2026-07-15 13:58:21] Obtendo lista de instâncias Cloud SQL PostgreSQL...
+[2026-07-15 13:58:25] Foram encontradas 33 instâncias.
+
+[2026-07-15 13:58:25] ================================================================================
+[2026-07-15 13:58:25] Nome      : gringo-plus-subscription-service-db-prd
+[2026-07-15 13:58:25] Versão    : POSTGRES_18
+[2026-07-15 13:58:25] Região    : southamerica-east1
+[2026-07-15 13:58:25] Estado    : RUNNABLE
+[2026-07-15 13:58:27] Configuração de Logging:
+[2026-07-15 13:58:27]   SQL_LOG_CONNECTIONS_DISABLED     : FAIL (valor=off)
+[2026-07-15 13:58:27]   SQL_LOG_DISCONNECTIONS_DISABLED  : FAIL (valor=off)
+[2026-07-15 13:58:27]   SQL_LOG_STATEMENT                : FAIL (valor=none)
+[2026-07-15 13:58:27] ================================================================================
+[2026-07-15 13:58:27] Nome      : payments-service-db-prd
+[2026-07-15 13:58:27] Versão    : POSTGRES_15
+[2026-07-15 13:58:27] Região    : southamerica-east1
+[2026-07-15 13:58:27] Estado    : RUNNABLE
+[2026-07-15 13:58:29] Configuração de Logging:
+[2026-07-15 13:58:29]   SQL_LOG_CONNECTIONS_DISABLED     : FAIL (valor=off)
+[2026-07-15 13:58:29]   SQL_LOG_DISCONNECTIONS_DISABLED  : FAIL (valor=off)
+[2026-07-15 13:58:29]   SQL_LOG_STATEMENT                : FAIL (valor=none)
+[2026-07-15 13:58:29] ================================================================================
+[2026-07-15 13:58:29] Nome      : receivable-register-service-db-prd
+[2026-07-15 13:58:29] Versão    : POSTGRES_15
+[2026-07-15 13:58:29] Região    : southamerica-east1
+[2026-07-15 13:58:29] Estado    : RUNNABLE
+[2026-07-15 13:58:31] Configuração de Logging:
+[2026-07-15 13:58:31]   SQL_LOG_CONNECTIONS_DISABLED     : FAIL (valor=off)
+[2026-07-15 13:58:31]   SQL_LOG_DISCONNECTIONS_DISABLED  : FAIL (valor=off)
+[2026-07-15 13:58:31]   SQL_LOG_STATEMENT                : FAIL (valor=none)
+[2026-07-15 13:58:31] ================================================================================
+[2026-07-15 13:58:31] Nome      : monitoring-service-db-prd-abb32cc98b
+[2026-07-15 13:58:31] Versão    : POSTGRES_14
+[2026-07-15 13:58:31] Região    : southamerica-east1
+[2026-07-15 13:58:31] Estado    : RUNNABLE
+[2026-07-15 13:58:33] Configuração de Logging:
+[2026-07-15 13:58:33]   SQL_LOG_CONNECTIONS_DISABLED     : FAIL (valor=off)
+[2026-07-15 13:58:33]   SQL_LOG_DISCONNECTIONS_DISABLED  : FAIL (valor=off)
+[2026-07-15 13:58:33]   SQL_LOG_STATEMENT                : FAIL (valor=none)
+[2026-07-15 13:58:33] ================================================================================
+[2026-07-15 13:58:33] Nome      : chatbot-service-db-prd
+[2026-07-15 13:58:33] Versão    : POSTGRES_15
+[2026-07-15 13:58:33] Região    : southamerica-east1
+[2026-07-15 13:58:33] Estado    : RUNNABLE
+[2026-07-15 13:58:35] Configuração de Logging:
+[2026-07-15 13:58:35]   SQL_LOG_CONNECTIONS_DISABLED     : FAIL (valor=off)
+[2026-07-15 13:58:35]   SQL_LOG_DISCONNECTIONS_DISABLED  : FAIL (valor=off)
+[2026-07-15 13:58:35]   SQL_LOG_STATEMENT                : FAIL (valor=none)
+[2026-07-15 13:58:35] ================================================================================
+[2026-07-15 13:58:35] Nome      : buy-and-sell-service-db-prd
+[2026-07-15 13:58:35] Versão    : POSTGRES_15
+[2026-07-15 13:58:35] Região    : southamerica-east1
+[2026-07-15 13:58:35] Estado    : RUNNABLE
+[2026-07-15 13:58:37] Configuração de Logging:
+[2026-07-15 13:58:37]   SQL_LOG_CONNECTIONS_DISABLED     : FAIL (valor=off)
+[2026-07-15 13:58:37]   SQL_LOG_DISCONNECTIONS_DISABLED  : FAIL (valor=off)
+[2026-07-15 13:58:37]   SQL_LOG_STATEMENT                : FAIL (valor=none)
+[2026-07-15 13:58:37] ================================================================================
+[2026-07-15 13:58:37] Nome      : renainf-service-db-prd-f30ca0a64c
+[2026-07-15 13:58:37] Versão    : POSTGRES_15
+[2026-07-15 13:58:37] Região    : southamerica-east1
+[2026-07-15 13:58:37] Estado    : RUNNABLE
+[2026-07-15 13:58:39] Configuração de Logging:
+[2026-07-15 13:58:39]   SQL_LOG_CONNECTIONS_DISABLED     : FAIL (valor=off)
+[2026-07-15 13:58:39]   SQL_LOG_DISCONNECTIONS_DISABLED  : FAIL (valor=off)
+[2026-07-15 13:58:39]   SQL_LOG_STATEMENT                : FAIL (valor=none)
+[2026-07-15 13:58:39] ================================================================================
+[2026-07-15 13:58:39] Nome      : nba-service-db-prd
+[2026-07-15 13:58:39] Versão    : POSTGRES_15
+[2026-07-15 13:58:39] Região    : southamerica-east1
+[2026-07-15 13:58:39] Estado    : RUNNABLE
+[2026-07-15 13:58:42] Configuração de Logging:
+[2026-07-15 13:58:42]   SQL_LOG_CONNECTIONS_DISABLED     : FAIL (valor=off)
+[2026-07-15 13:58:42]   SQL_LOG_DISCONNECTIONS_DISABLED  : FAIL (valor=off)
+[2026-07-15 13:58:42]   SQL_LOG_STATEMENT                : FAIL (valor=none)
+[2026-07-15 13:58:42] ================================================================================
+[2026-07-15 13:58:42] Nome      : free-flow-service-db-prd
+[2026-07-15 13:58:42] Versão    : POSTGRES_15
+[2026-07-15 13:58:42] Região    : southamerica-east1
+[2026-07-15 13:58:42] Estado    : RUNNABLE
+[2026-07-15 13:58:44] Configuração de Logging:
+[2026-07-15 13:58:44]   SQL_LOG_CONNECTIONS_DISABLED     : FAIL (valor=off)
+[2026-07-15 13:58:44]   SQL_LOG_DISCONNECTIONS_DISABLED  : FAIL (valor=off)
+[2026-07-15 13:58:44]   SQL_LOG_STATEMENT                : FAIL (valor=none)
+[2026-07-15 13:58:44] ================================================================================
+[2026-07-15 13:58:44] Nome      : refi-service-db
+[2026-07-15 13:58:44] Versão    : POSTGRES_16
+[2026-07-15 13:58:44] Região    : southamerica-east1
+[2026-07-15 13:58:44] Estado    : RUNNABLE
+[2026-07-15 13:58:46] Configuração de Logging:
+[2026-07-15 13:58:46]   SQL_LOG_CONNECTIONS_DISABLED     : FAIL (valor=off)
+[2026-07-15 13:58:46]   SQL_LOG_DISCONNECTIONS_DISABLED  : FAIL (valor=off)
+[2026-07-15 13:58:46]   SQL_LOG_STATEMENT                : FAIL (valor=none)
+[2026-07-15 13:58:46] ================================================================================
+[2026-07-15 13:58:46] Nome      : drivers-license-service-db
+[2026-07-15 13:58:46] Versão    : POSTGRES_16
+[2026-07-15 13:58:46] Região    : southamerica-east1
+[2026-07-15 13:58:46] Estado    : RUNNABLE
+[2026-07-15 13:58:48] Configuração de Logging:
+[2026-07-15 13:58:48]   SQL_LOG_CONNECTIONS_DISABLED     : FAIL (valor=off)
+[2026-07-15 13:58:48]   SQL_LOG_DISCONNECTIONS_DISABLED  : FAIL (valor=off)
+[2026-07-15 13:58:48]   SQL_LOG_STATEMENT                : FAIL (valor=none)
+[2026-07-15 13:58:48] ================================================================================
+[2026-07-15 13:58:48] Nome      : offers-service-db-prd
+[2026-07-15 13:58:48] Versão    : POSTGRES_15
+[2026-07-15 13:58:48] Região    : southamerica-east1
+[2026-07-15 13:58:48] Estado    : RUNNABLE
+[2026-07-15 13:58:50] Configuração de Logging:
+[2026-07-15 13:58:50]   SQL_LOG_CONNECTIONS_DISABLED     : FAIL (valor=off)
+[2026-07-15 13:58:50]   SQL_LOG_DISCONNECTIONS_DISABLED  : FAIL (valor=off)
+[2026-07-15 13:58:50]   SQL_LOG_STATEMENT                : FAIL (valor=none)
+[2026-07-15 13:58:50] ================================================================================
+[2026-07-15 13:58:50] Nome      : vehicle-insurance-service-db
+[2026-07-15 13:58:50] Versão    : POSTGRES_16
+[2026-07-15 13:58:50] Região    : southamerica-east1
+[2026-07-15 13:58:50] Estado    : RUNNABLE
+[2026-07-15 13:58:52] Configuração de Logging:
+[2026-07-15 13:58:52]   SQL_LOG_CONNECTIONS_DISABLED     : FAIL (valor=off)
+[2026-07-15 13:58:52]   SQL_LOG_DISCONNECTIONS_DISABLED  : FAIL (valor=off)
+[2026-07-15 13:58:52]   SQL_LOG_STATEMENT                : FAIL (valor=none)
+[2026-07-15 13:58:52] ================================================================================
+[2026-07-15 13:58:52] Nome      : dispatcher-service-db-prd-6e3626d8c1
+[2026-07-15 13:58:52] Versão    : POSTGRES_15
+[2026-07-15 13:58:52] Região    : southamerica-east1
+[2026-07-15 13:58:52] Estado    : RUNNABLE
+[2026-07-15 13:58:54] Configuração de Logging:
+[2026-07-15 13:58:54]   SQL_LOG_CONNECTIONS_DISABLED     : FAIL (valor=off)
+[2026-07-15 13:58:54]   SQL_LOG_DISCONNECTIONS_DISABLED  : FAIL (valor=off)
+[2026-07-15 13:58:54]   SQL_LOG_STATEMENT                : FAIL (valor=none)
+[2026-07-15 13:58:54] ================================================================================
+[2026-07-15 13:58:54] Nome      : vehicle-prices-service-db
+[2026-07-15 13:58:54] Versão    : POSTGRES_14
+[2026-07-15 13:58:54] Região    : southamerica-east1
+[2026-07-15 13:58:54] Estado    : RUNNABLE
+[2026-07-15 13:58:56] Configuração de Logging:
+[2026-07-15 13:58:56]   SQL_LOG_CONNECTIONS_DISABLED     : FAIL (valor=off)
+[2026-07-15 13:58:56]   SQL_LOG_DISCONNECTIONS_DISABLED  : FAIL (valor=off)
+[2026-07-15 13:58:56]   SQL_LOG_STATEMENT                : FAIL (valor=none)
+[2026-07-15 13:58:56] ================================================================================
+[2026-07-15 13:58:56] Nome      : consortium-service-db-prd
+[2026-07-15 13:58:56] Versão    : POSTGRES_15
+[2026-07-15 13:58:56] Região    : southamerica-east1
+[2026-07-15 13:58:56] Estado    : RUNNABLE
+[2026-07-15 13:58:58] Configuração de Logging:
+[2026-07-15 13:58:58]   SQL_LOG_CONNECTIONS_DISABLED     : FAIL (valor=off)
+[2026-07-15 13:58:58]   SQL_LOG_DISCONNECTIONS_DISABLED  : FAIL (valor=off)
+[2026-07-15 13:58:58]   SQL_LOG_STATEMENT                : FAIL (valor=none)
+[2026-07-15 13:58:58] ================================================================================
+[2026-07-15 13:58:58] Nome      : kong-db-7b90958927
+[2026-07-15 13:58:58] Versão    : POSTGRES_13
+[2026-07-15 13:58:58] Região    : southamerica-east1
+[2026-07-15 13:58:58] Estado    : RUNNABLE
+[2026-07-15 13:59:00] Configuração de Logging:
+[2026-07-15 13:59:00]   SQL_LOG_CONNECTIONS_DISABLED     : FAIL (valor=off)
+[2026-07-15 13:59:00]   SQL_LOG_DISCONNECTIONS_DISABLED  : FAIL (valor=off)
+[2026-07-15 13:59:00]   SQL_LOG_STATEMENT                : FAIL (valor=none)
+[2026-07-15 13:59:00] ================================================================================
+[2026-07-15 13:59:00] Nome      : vehicle-assistance-service-db-prd
+[2026-07-15 13:59:00] Versão    : POSTGRES_15
+[2026-07-15 13:59:00] Região    : southamerica-east1
+[2026-07-15 13:59:00] Estado    : RUNNABLE
+[2026-07-15 13:59:02] Configuração de Logging:
+[2026-07-15 13:59:02]   SQL_LOG_CONNECTIONS_DISABLED     : FAIL (valor=off)
+[2026-07-15 13:59:02]   SQL_LOG_DISCONNECTIONS_DISABLED  : FAIL (valor=off)
+[2026-07-15 13:59:02]   SQL_LOG_STATEMENT                : FAIL (valor=none)
+[2026-07-15 13:59:02] ================================================================================
+[2026-07-15 13:59:02] Nome      : report-service-db-prd
+[2026-07-15 13:59:02] Versão    : POSTGRES_15
+[2026-07-15 13:59:02] Região    : southamerica-east1
+[2026-07-15 13:59:02] Estado    : RUNNABLE
+[2026-07-15 13:59:04] Configuração de Logging:
+[2026-07-15 13:59:04]   SQL_LOG_CONNECTIONS_DISABLED     : FAIL (valor=off)
+[2026-07-15 13:59:04]   SQL_LOG_DISCONNECTIONS_DISABLED  : FAIL (valor=off)
+[2026-07-15 13:59:04]   SQL_LOG_STATEMENT                : FAIL (valor=none)
+[2026-07-15 13:59:04] ================================================================================
+[2026-07-15 13:59:04] Nome      : vehicle-service-db
+[2026-07-15 13:59:04] Versão    : POSTGRES_16
+[2026-07-15 13:59:04] Região    : southamerica-east1
+[2026-07-15 13:59:04] Estado    : RUNNABLE
+[2026-07-15 13:59:06] Configuração de Logging:
+[2026-07-15 13:59:06]   SQL_LOG_CONNECTIONS_DISABLED     : FAIL (valor=off)
+[2026-07-15 13:59:06]   SQL_LOG_DISCONNECTIONS_DISABLED  : FAIL (valor=off)
+[2026-07-15 13:59:06]   SQL_LOG_STATEMENT                : FAIL (valor=none)
+[2026-07-15 13:59:06] ================================================================================
+[2026-07-15 13:59:06] Nome      : tag-service-db
+[2026-07-15 13:59:06] Versão    : POSTGRES_14
+[2026-07-15 13:59:06] Região    : southamerica-east1
+[2026-07-15 13:59:06] Estado    : RUNNABLE
+[2026-07-15 13:59:08] Configuração de Logging:
+[2026-07-15 13:59:08]   SQL_LOG_CONNECTIONS_DISABLED     : FAIL (valor=off)
+[2026-07-15 13:59:08]   SQL_LOG_DISCONNECTIONS_DISABLED  : FAIL (valor=off)
+[2026-07-15 13:59:08]   SQL_LOG_STATEMENT                : FAIL (valor=none)
+[2026-07-15 13:59:08] ================================================================================
+[2026-07-15 13:59:08] Nome      : conciliation-service-db-prd
+[2026-07-15 13:59:08] Versão    : POSTGRES_15
+[2026-07-15 13:59:08] Região    : southamerica-east1
+[2026-07-15 13:59:08] Estado    : RUNNABLE
+[2026-07-15 13:59:10] Configuração de Logging:
+[2026-07-15 13:59:10]   SQL_LOG_CONNECTIONS_DISABLED     : FAIL (valor=off)
+[2026-07-15 13:59:10]   SQL_LOG_DISCONNECTIONS_DISABLED  : FAIL (valor=off)
+[2026-07-15 13:59:10]   SQL_LOG_STATEMENT                : FAIL (valor=none)
+[2026-07-15 13:59:10] ================================================================================
+[2026-07-15 13:59:10] Nome      : gringo-notification-service-db
+[2026-07-15 13:59:10] Versão    : POSTGRES_14
+[2026-07-15 13:59:10] Região    : southamerica-east1
+[2026-07-15 13:59:10] Estado    : RUNNABLE
+[2026-07-15 13:59:13] Configuração de Logging:
+[2026-07-15 13:59:13]   SQL_LOG_CONNECTIONS_DISABLED     : FAIL (valor=off)
+[2026-07-15 13:59:13]   SQL_LOG_DISCONNECTIONS_DISABLED  : FAIL (valor=off)
+[2026-07-15 13:59:13]   SQL_LOG_STATEMENT                : FAIL (valor=none)
+[2026-07-15 13:59:13] ================================================================================
+[2026-07-15 13:59:13] Nome      : zitadel-db-prd-a2fa816507
+[2026-07-15 13:59:13] Versão    : POSTGRES_15
+[2026-07-15 13:59:13] Região    : southamerica-east1
+[2026-07-15 13:59:13] Estado    : RUNNABLE
+[2026-07-15 13:59:15] Configuração de Logging:
+[2026-07-15 13:59:15]   SQL_LOG_CONNECTIONS_DISABLED     : FAIL (valor=off)
+[2026-07-15 13:59:15]   SQL_LOG_DISCONNECTIONS_DISABLED  : FAIL (valor=off)
+[2026-07-15 13:59:15]   SQL_LOG_STATEMENT                : FAIL (valor=none)
+[2026-07-15 13:59:15] ================================================================================
+[2026-07-15 13:59:15] Nome      : liquidation-service-db-prd-bafa4d5213
+[2026-07-15 13:59:15] Versão    : POSTGRES_14
+[2026-07-15 13:59:15] Região    : southamerica-east1
+[2026-07-15 13:59:15] Estado    : RUNNABLE
+[2026-07-15 13:59:17] Configuração de Logging:
+[2026-07-15 13:59:17]   SQL_LOG_CONNECTIONS_DISABLED     : FAIL (valor=off)
+[2026-07-15 13:59:17]   SQL_LOG_DISCONNECTIONS_DISABLED  : FAIL (valor=off)
+[2026-07-15 13:59:17]   SQL_LOG_STATEMENT                : FAIL (valor=none)
+[2026-07-15 13:59:17] ================================================================================
+[2026-07-15 13:59:17] Nome      : gateway-pg15-db-prd
+[2026-07-15 13:59:17] Versão    : POSTGRES_15
+[2026-07-15 13:59:17] Região    : southamerica-east1
+[2026-07-15 13:59:17] Estado    : STOPPED
+[2026-07-15 13:59:19] Configuração de Logging:
+[2026-07-15 13:59:19]   SQL_LOG_CONNECTIONS_DISABLED     : PASS (valor=on)
+[2026-07-15 13:59:19]   SQL_LOG_DISCONNECTIONS_DISABLED  : FAIL (valor=off)
+[2026-07-15 13:59:19]   SQL_LOG_STATEMENT                : PASS (valor=all)
+[2026-07-15 13:59:19] ================================================================================
+[2026-07-15 13:59:19] Nome      : debits-service-db-prd
+[2026-07-15 13:59:19] Versão    : POSTGRES_15
+[2026-07-15 13:59:19] Região    : southamerica-east1
+[2026-07-15 13:59:19] Estado    : RUNNABLE
+[2026-07-15 13:59:21] Configuração de Logging:
+[2026-07-15 13:59:21]   SQL_LOG_CONNECTIONS_DISABLED     : FAIL (valor=off)
+[2026-07-15 13:59:21]   SQL_LOG_DISCONNECTIONS_DISABLED  : FAIL (valor=off)
+[2026-07-15 13:59:21]   SQL_LOG_STATEMENT                : FAIL (valor=none)
+[2026-07-15 13:59:21] ================================================================================
+[2026-07-15 13:59:21] Nome      : emission-service-db-prd-aa385a1e14
+[2026-07-15 13:59:21] Versão    : POSTGRES_14
+[2026-07-15 13:59:21] Região    : southamerica-east1
+[2026-07-15 13:59:21] Estado    : RUNNABLE
+[2026-07-15 13:59:23] Configuração de Logging:
+[2026-07-15 13:59:23]   SQL_LOG_CONNECTIONS_DISABLED     : FAIL (valor=off)
+[2026-07-15 13:59:23]   SQL_LOG_DISCONNECTIONS_DISABLED  : FAIL (valor=off)
+[2026-07-15 13:59:23]   SQL_LOG_STATEMENT                : FAIL (valor=none)
+[2026-07-15 13:59:23] ================================================================================
+[2026-07-15 13:59:23] Nome      : owner-review-service-db-prd
+[2026-07-15 13:59:23] Versão    : POSTGRES_15
+[2026-07-15 13:59:23] Região    : southamerica-east1
+[2026-07-15 13:59:23] Estado    : RUNNABLE
+[2026-07-15 13:59:25] Configuração de Logging:
+[2026-07-15 13:59:25]   SQL_LOG_CONNECTIONS_DISABLED     : FAIL (valor=off)
+[2026-07-15 13:59:25]   SQL_LOG_DISCONNECTIONS_DISABLED  : FAIL (valor=off)
+[2026-07-15 13:59:25]   SQL_LOG_STATEMENT                : FAIL (valor=none)
+[2026-07-15 13:59:25] ================================================================================
+[2026-07-15 13:59:25] Nome      : prod-gateway-db
+[2026-07-15 13:59:25] Versão    : POSTGRES_16
+[2026-07-15 13:59:25] Região    : southamerica-east1
+[2026-07-15 13:59:25] Estado    : RUNNABLE
+[2026-07-15 13:59:27] Configuração de Logging:
+[2026-07-15 13:59:27]   SQL_LOG_CONNECTIONS_DISABLED     : PASS (valor=on)
+[2026-07-15 13:59:27]   SQL_LOG_DISCONNECTIONS_DISABLED  : FAIL (valor=off)
+[2026-07-15 13:59:27]   SQL_LOG_STATEMENT                : PASS (valor=all)
+[2026-07-15 13:59:27] ================================================================================
+[2026-07-15 13:59:27] Nome      : gringo-personal-assistance-service-db
+[2026-07-15 13:59:27] Versão    : POSTGRES_16
+[2026-07-15 13:59:27] Região    : southamerica-east1
+[2026-07-15 13:59:27] Estado    : RUNNABLE
+[2026-07-15 13:59:29] Configuração de Logging:
+[2026-07-15 13:59:29]   SQL_LOG_CONNECTIONS_DISABLED     : FAIL (valor=off)
+[2026-07-15 13:59:29]   SQL_LOG_DISCONNECTIONS_DISABLED  : FAIL (valor=off)
+[2026-07-15 13:59:29]   SQL_LOG_STATEMENT                : FAIL (valor=none)
+[2026-07-15 13:59:29] ================================================================================
+[2026-07-15 13:59:29] Nome      : permissions-db
+[2026-07-15 13:59:29] Versão    : POSTGRES_16
+[2026-07-15 13:59:29] Região    : southamerica-east1
+[2026-07-15 13:59:29] Estado    : RUNNABLE
+[2026-07-15 13:59:31] Configuração de Logging:
+[2026-07-15 13:59:31]   SQL_LOG_CONNECTIONS_DISABLED     : FAIL (valor=off)
+[2026-07-15 13:59:31]   SQL_LOG_DISCONNECTIONS_DISABLED  : FAIL (valor=off)
+[2026-07-15 13:59:31]   SQL_LOG_STATEMENT                : FAIL (valor=none)
+[2026-07-15 13:59:31] ================================================================================
+[2026-07-15 13:59:31] Nome      : prod-survey-service-db
+[2026-07-15 13:59:31] Versão    : POSTGRES_16
+[2026-07-15 13:59:31] Região    : southamerica-east1
+[2026-07-15 13:59:31] Estado    : RUNNABLE
+[2026-07-15 13:59:33] Configuração de Logging:
+[2026-07-15 13:59:33]   SQL_LOG_CONNECTIONS_DISABLED     : FAIL (valor=off)
+[2026-07-15 13:59:33]   SQL_LOG_DISCONNECTIONS_DISABLED  : FAIL (valor=off)
+[2026-07-15 13:59:33]   SQL_LOG_STATEMENT                : FAIL (valor=none)
+[2026-07-15 13:59:33] ================================================================================
+[2026-07-15 13:59:33] Fim da execução.

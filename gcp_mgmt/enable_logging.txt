@@ -1,0 +1,156 @@
+========================================================================================================================
+Backend                                                                Scope      Logging    Sample
+========================================================================================================================
+gringo-desk-prod-backend-service                                       GLOBAL     YES        1.0
+gringo-web-prod-backend-service                                        GLOBAL     YES        0.1
+k8s-be-32613--b4f8cb8e00b9ce37                                         GLOBAL     YES        1.0
+k8s1-b4f8cb8e-default-zitadel-external-8080-9064385e                   GLOBAL     YES        1.0
+kong-ext-backend-service                                               GLOBAL     YES        1.0
+service-api-fetch-limit-user-permission-refresher                      GLOBAL     NO         0
+service-api-fetch-limit-user-permission-refresher2                     GLOBAL     NO         0
+service-base-nacional-http-api                                         GLOBAL     NO         0
+service-braze-campaign-trigger-api                                     GLOBAL     NO         0
+service-cloud-storage-fipe-trigger                                     GLOBAL     NO         0
+service-convert-html-to-base64-image-function                          GLOBAL     NO         0
+service-database-access-mgmt                                           GLOBAL     NO         0
+service-database-access-mgmt-gen2                                      GLOBAL     NO         0
+service-distrito-federal                                               GLOBAL     NO         0
+service-event-publisher                                                GLOBAL     YES        0.1
+service-fipe                                                           GLOBAL     NO         0
+service-gringo-gcb-bot                                                 GLOBAL     NO         0
+service-hasura-order-steps-transformation                              GLOBAL     NO         0
+service-ipva-notification-slack                                        GLOBAL     NO         0
+service-memory-store-proxy                                             GLOBAL     NO         0
+service-minas-gerais                                                   GLOBAL     NO         0
+service-national                                                       GLOBAL     NO         0
+service-order-executed-id-echo                                         GLOBAL     NO         0
+service-order-monitor-amplitude                                        GLOBAL     NO         0
+service-order-status-braze                                             GLOBAL     NO         0
+service-order-status-event-function                                    GLOBAL     NO         0
+service-order-status-review-in-app                                     GLOBAL     NO         0
+service-parana                                                         GLOBAL     NO         0
+service-parana-modulo-veiculo                                          GLOBAL     NO         0
+service-partner-webhook-mtls                                           GLOBAL     YES        1.0
+service-partner-webhook-v2                                             GLOBAL     YES        1.0
+service-pr-modulo-veiculo                                              GLOBAL     NO         0
+service-rendimento-http-proxy                                          GLOBAL     NO         0
+service-rio-de-janeiro                                                 GLOBAL     NO         0
+service-rio-de-janeiro-gen2                                            GLOBAL     NO         0
+service-rio-grande-sul                                                 GLOBAL     NO         0
+service-santa-catarina                                                 GLOBAL     NO         0
+service-sao-paulo                                                      GLOBAL     NO         0
+service-sao-paulo-restrictions                                         GLOBAL     NO         0
+service-send-message-function                                          GLOBAL     NO         0
+service-send-whatsapp-message-blip-api                                 GLOBAL     NO         0
+service-sergipe                                                        GLOBAL     NO         0
+sparkpost-engagement-tracking                                          GLOBAL     NO         0
+a8ee924d9be1a4964927575a5fc4ec73                                       SOUTHAMERICA-EAST1 NO         0
+gkegw1-u91f-defa-gringo-plus-subscription-serv-443-zq68ps208lno        SOUTHAMERICA-EAST1 YES        1.0
+gkegw1-u91f-defa-vehicle-assistance-service-jo-443-f0ph1klacpz9        SOUTHAMERICA-EAST1 YES        1.0
+gkegw1-u91f-defau-axle-control-panel-internal--443-5vg63ljr9ent        SOUTHAMERICA-EAST1 YES        1.0
+gkegw1-u91f-defau-buy-and-sell-service-interna-443-5qvw1ypftbsy        SOUTHAMERICA-EAST1 YES        1.0
+gkegw1-u91f-defau-conciliation-service-interna-443-sw34my5vs098        SOUTHAMERICA-EAST1 YES        1.0
+gkegw1-u91f-defau-consortium-service-internal--443-irhkwq93dstb        SOUTHAMERICA-EAST1 YES        1.0
+gkegw1-u91f-defau-consortium-service-subs-inte-443-3fdrwhwalm89        SOUTHAMERICA-EAST1 YES        1.0
+gkegw1-u91f-defau-email-braze-webhook-internal-443-wavues4983py        SOUTHAMERICA-EAST1 YES        1.0
+gkegw1-u91f-defau-email-metrics-api-internal-w-443-roicarpb68no        SOUTHAMERICA-EAST1 YES        1.0
+gkegw1-u91f-defau-email-template-api-internal--443-2h2laeopfl4e        SOUTHAMERICA-EAST1 YES        1.0
+gkegw1-u91f-defau-free-flow-service-internal-w-443-1qc43etr88vy        SOUTHAMERICA-EAST1 YES        1.0
+gkegw1-u91f-defau-gringo-plus-subscription-ser-443-2pfi4jqm4djm        SOUTHAMERICA-EAST1 YES        1.0
+gkegw1-u91f-defau-owner-review-service-interna-443-fvoowgusrhoh        SOUTHAMERICA-EAST1 YES        1.0
+gkegw1-u91f-defau-receivable-register-service--443-6xcl4o921dyu        SOUTHAMERICA-EAST1 YES        1.0
+gkegw1-u91f-defau-scrapers-free-flow-internal--443-10wqapzrg2nz        SOUTHAMERICA-EAST1 YES        1.0
+gkegw1-u91f-defau-temporal-codec-server-intern-443-6pqcca5l1hbr        SOUTHAMERICA-EAST1 YES        1.0
+gkegw1-u91f-defau-vehicle-assistance-service-i-443-w9jruhpfz1ju        SOUTHAMERICA-EAST1 YES        1.0
+gkegw1-u91f-defau-vehicle-assistance-service-j-443-p4mwv7goap2z        SOUTHAMERICA-EAST1 YES        1.0
+gkegw1-u91f-defaul-alerts-service-internal-wei-443-4rddhrtoj6i9        SOUTHAMERICA-EAST1 YES        1.0
+gkegw1-u91f-defaul-api-integration-service-int-443-a7t20ca4ygyg        SOUTHAMERICA-EAST1 YES        1.0
+gkegw1-u91f-defaul-consortium-service-subs-int-443-wgyzpryep1as        SOUTHAMERICA-EAST1 YES        1.0
+gkegw1-u91f-defaul-debits-service-internal-wei-443-lt7dxagtmjen        SOUTHAMERICA-EAST1 YES        1.0
+gkegw1-u91f-defaul-drivers-license-service-int-443-9sb2cry5q4be        SOUTHAMERICA-EAST1 YES        1.0
+gkegw1-u91f-defaul-ggo-bff-chatbot-internal-we-443-ydydks93miu1        SOUTHAMERICA-EAST1 YES        1.0
+gkegw1-u91f-defaul-gringo-notification-service-443-pg54owgw6ir3        SOUTHAMERICA-EAST1 YES        1.0
+gkegw1-u91f-defaul-mock-data-forge-internal-we-443-w4377nfdtd07        SOUTHAMERICA-EAST1 YES        1.0
+gkegw1-u91f-defaul-nba-service-internal-weight-443-14dubnm07cyd        SOUTHAMERICA-EAST1 YES        1.0
+gkegw1-u91f-defaul-pages-service-internal-weig-443-dvw8hcuewzfv        SOUTHAMERICA-EAST1 YES        1.0
+gkegw1-u91f-defaul-permissions-manager-service-443-l061s1zvv7xc        SOUTHAMERICA-EAST1 YES        1.0
+gkegw1-u91f-defaul-receivable-register-service-443-44wrieced9n0        SOUTHAMERICA-EAST1 YES        1.0
+gkegw1-u91f-defaul-report-service-internal-wei-443-q61gas45oanm        SOUTHAMERICA-EAST1 YES        1.0
+gkegw1-u91f-defaul-scraper-distrito-federal-in-443-0n0n8ipukk9i        SOUTHAMERICA-EAST1 YES        1.0
+gkegw1-u91f-defaul-scrapers-distrito-federal-i-443-t9g94bvrk5wx        SOUTHAMERICA-EAST1 YES        1.0
+gkegw1-u91f-defaul-scrapers-rio-de-janeiro-int-443-2fafi9h2obk5        SOUTHAMERICA-EAST1 YES        1.0
+gkegw1-u91f-defaul-survey-service-internal-wei-443-u5b71qzxynvt        SOUTHAMERICA-EAST1 YES        1.0
+gkegw1-u91f-defaul-vehicle-assistance-service--443-zooslzpy50rm        SOUTHAMERICA-EAST1 YES        1.0
+gkegw1-u91f-defaul-vehicle-insurance-service-a-443-f7la0884vp3x        SOUTHAMERICA-EAST1 YES        1.0
+gkegw1-u91f-default-alerts-service-internal-443-c9pczbqpv9uy           SOUTHAMERICA-EAST1 YES        1.0
+http-event-publisher-private                                           SOUTHAMERICA-EAST1 NO         0
+k8s1-b4f8cb8e-default-prometheus-grafana-80-e9a06d61                   SOUTHAMERICA-EAST1 YES        1.0
+k8s1-b4f8cb8e-default-zitadel-8080-7b07f3ee                            SOUTHAMERICA-EAST1 YES        1.0
+k8s1-b4f8cb8e-kube-system-default-http-backend-80-72168804             SOUTHAMERICA-EAST1 YES        1.0
+kong-int-backend-service                                               SOUTHAMERICA-EAST1 NO         0
+renainf-billet-function-private                                        SOUTHAMERICA-EAST1 NO         0
+
+Summary
+==============================
+Logging Enabled : 49
+Logging Disabled: 39
+Not Found       : 0
+(venv) PS C:\Users\EssiasSouza\SCRIPTS\pci-dss>  c:; cd 'c:\Users\EssiasSouza\SCRIPTS\pci-dss'; & 'c:\Users\EssiasSouza\SCRIPTS\pci-dss\venv\Scripts\python.exe' 'c:\Users\EssiasSouza\.vscode\extensions\ms-python.debugpy-2026.6.0-win32-x64\bundled\libs\debugpy\launcher' '59379' '--' 'c:\Users\EssiasSouza\SCRIPTS\pci-dss\gcloud_mgmt\enable_logging.py' 
+====================================================================================================
+Enabling logging for GLOBAL backend services
+====================================================================================================
+Updating service-api-fetch-limit-user-permission-refresher... 
+(venv) PS C:\Users\EssiasSouza\SCRIPTS\pci-dss>  c:; cd 'c:\Users\EssiasSouza\SCRIPTS\pci-dss'; & 'c:\Users\EssiasSouza\SCRIPTS\pci-dss\venv\Scripts\python.exe' 'c:\Users\EssiasSouza\.vscode\extensions\ms-python.debugpy-2026.6.0-win32-x64\bundled\libs\debugpy\launcher' '59411' '--' 'c:\Users\EssiasSouza\SCRIPTS\pci-dss\gcloud_mgmt\enable_logging.py' 
+====================================================================================================
+Enabling logging for GLOBAL backend services
+====================================================================================================
+Updating service-api-fetch-limit-user-permission-refresher... OK
+Updating service-api-fetch-limit-user-permission-refresher2... OK
+Updating service-base-nacional-http-api... OK
+Updating service-braze-campaign-trigger-api... OK
+Updating service-cloud-storage-fipe-trigger... OK
+Updating service-convert-html-to-base64-image-function... OK
+Updating service-database-access-mgmt... OK
+Updating service-database-access-mgmt-gen2... OK
+Updating service-distrito-federal... OK
+Updating service-fipe... OK
+Updating service-gringo-gcb-bot... OK
+Updating service-hasura-order-steps-transformation... OK
+Updating service-ipva-notification-slack... OK
+Updating service-memory-store-proxy... OK
+Updating service-minas-gerais... OK
+Updating service-national... OK
+Updating service-order-executed-id-echo... OK
+Updating service-order-monitor-amplitude... OK
+Updating service-order-status-braze... OK
+Updating service-order-status-event-function... OK
+Updating service-order-status-review-in-app... OK
+Updating service-parana... OK
+Updating service-parana-modulo-veiculo... OK
+Updating service-pr-modulo-veiculo... OK
+Updating service-rendimento-http-proxy... OK
+Updating service-rio-de-janeiro... OK
+Updating service-rio-de-janeiro-gen2... OK
+Updating service-rio-grande-sul... OK
+Updating service-santa-catarina... OK
+Updating service-sao-paulo... OK
+Updating service-sao-paulo-restrictions... OK
+Updating service-send-message-function... OK
+Updating service-send-whatsapp-message-blip-api... OK
+Updating service-sergipe... OK
+Updating sparkpost-engagement-tracking... OK
+
+====================================================================================================
+Enabling logging for REGIONAL backend services (southamerica-east1)
+====================================================================================================
+Updating a8ee924d9be1a4964927575a5fc4ec73... OK
+Updating http-event-publisher-private... OK
+Updating kong-int-backend-service... OK
+Updating renainf-billet-function-private... OK
+
+====================================================================================================
+Summary
+====================================================================================================
+Successful updates : 39
+Failed updates     : 0
+====================================================================================================

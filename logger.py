@@ -1,9 +1,3 @@
-"""
-logger.py
-
-Logging configuration for PCI DSS Evidence Scanner.
-"""
-
 import logging
 import os
 from datetime import datetime
@@ -13,9 +7,6 @@ LOG_DIRECTORY = "logs"
 
 
 def create_log_file():
-    """
-    Creates the log directory and returns the generated log file path.
-    """
 
     os.makedirs(LOG_DIRECTORY, exist_ok=True)
 
@@ -30,9 +21,6 @@ def create_log_file():
 
 
 def setup_logger():
-    """
-    Configures application logger.
-    """
 
     log_file = create_log_file()
 
@@ -60,16 +48,10 @@ def setup_logger():
 
 
 def log_operation(logger, message):
-    """
-    Records a standard application operation.
-    """
 
     logger.info(message)
 
 
 def log_error(logger, message):
-    """
-    Records an application error.
-    """
 
     logger.error(message)

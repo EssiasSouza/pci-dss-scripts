@@ -1,9 +1,3 @@
-"""
-models.py
-
-Data models used by the PCI DSS Evidence Scanner.
-"""
-
 from dataclasses import dataclass, field
 from typing import Any, Dict, List, Optional
 

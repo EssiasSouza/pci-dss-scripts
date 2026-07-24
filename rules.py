@@ -1,9 +1,3 @@
-"""
-rules.py
-
-Executes PCI DSS security validation rules against parsed workloads.
-"""
-
 from models import PCIReport, PCIFinding, ParsedWorkload
 
 
@@ -12,9 +6,6 @@ from models import PCIReport, PCIFinding, ParsedWorkload
 # ============================================================================
 
 def check_privileged_containers(workload):
-    """
-    Check containers running in privileged mode.
-    """
 
     findings = []
 
@@ -37,9 +28,6 @@ def check_privileged_containers(workload):
 
 
 def check_privilege_escalation(workload):
-    """
-    Check privilege escalation configuration.
-    """
 
     findings = []
 
@@ -66,9 +54,6 @@ def check_privilege_escalation(workload):
 
 
 def check_host_path(workload):
-    """
-    Check hostPath volumes.
-    """
 
     findings = []
 
@@ -91,9 +76,6 @@ def check_host_path(workload):
 
 
 def check_hardcoded_credentials(workload):
-    """
-    Detect sensitive environment variables using plain values.
-    """
 
     findings = []
 
@@ -139,10 +121,6 @@ def check_hardcoded_credentials(workload):
 
 
 def check_database_and_application(workload):
-    """
-    Detect possible database and application containers
-    running in the same pod.
-    """
 
     findings = []
 
@@ -208,9 +186,6 @@ def check_database_and_application(workload):
 # ============================================================================
 
 def check_run_as_non_root(workload):
-    """
-    Check containers running without non-root enforcement.
-    """
 
     findings = []
 
@@ -237,9 +212,6 @@ def check_run_as_non_root(workload):
 
 
 def check_read_only_filesystem(workload):
-    """
-    Check root filesystem protection.
-    """
 
     findings = []
 
@@ -267,9 +239,6 @@ def check_read_only_filesystem(workload):
 
 
 def check_image_security(workload):
-    """
-    Check image tag and digest usage.
-    """
 
     findings = []
 
@@ -318,9 +287,6 @@ def check_image_security(workload):
 # ============================================================================
 
 def check_resources(workload):
-    """
-    Record resources configuration.
-    """
 
     findings = []
 
@@ -347,9 +313,6 @@ def check_resources(workload):
 
 
 def check_helm(workload):
-    """
-    Check Helm deployment metadata.
-    """
 
     if workload.identification.helm_annotations:
 
@@ -367,9 +330,6 @@ def check_helm(workload):
 
 
 def check_workload_identity(workload):
-    """
-    Check GKE Workload Identity annotation.
-    """
 
     if "iam.gke.io/gcp-service-account" in workload.annotations.values:
 
@@ -389,9 +349,6 @@ def check_workload_identity(workload):
 
 
 def check_probes(workload):
-    """
-    Check health probes.
-    """
 
     findings = []
 
@@ -420,9 +377,6 @@ def check_probes(workload):
 
 
 def check_labels(workload):
-    """
-    Check workload labels.
-    """
 
     if workload.identification.labels:
 
@@ -442,9 +396,6 @@ def check_labels(workload):
 
 
 def check_annotations(workload):
-    """
-    Check relevant security annotations.
-    """
 
     if workload.annotations.values:
 
@@ -468,9 +419,6 @@ def check_annotations(workload):
 # ============================================================================
 
 def execute_rules(workload: ParsedWorkload):
-    """
-    Executes all PCI DSS rules.
-    """
 
     findings = []
 

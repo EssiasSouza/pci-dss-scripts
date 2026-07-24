@@ -1,0 +1,5 @@
+# NÃO falar que:
+
+- Gringo usa Security Command Center (SCC)
+- Gringo usa Cloud Monitoring
+- Gringo usa Dynatrace para monitoria de segurança

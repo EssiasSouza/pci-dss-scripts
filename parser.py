@@ -1,9 +1,3 @@
-"""
-parser.py
-
-Extracts only security-relevant fields from Kubernetes manifests.
-"""
-
 from models import (
     ParsedWorkload,
     Identification,
@@ -23,9 +17,6 @@ from models import (
 
 
 def parse_identification(manifest):
-    """
-    Extract workload identification information.
-    """
 
     metadata = manifest.get("metadata", {})
 
@@ -51,9 +42,6 @@ def parse_identification(manifest):
 
 
 def parse_security_context(container):
-    """
-    Extract container security context.
-    """
 
     context = container.get("securityContext", {})
 
@@ -90,9 +78,6 @@ def parse_security_context(container):
 
 
 def parse_resources(container):
-    """
-    Extract resource requests and limits.
-    """
 
     resources = container.get(
         "resources",
@@ -112,9 +97,6 @@ def parse_resources(container):
 
 
 def parse_environment(container):
-    """
-    Extract environment variables and references.
-    """
 
     variables = []
 
@@ -150,9 +132,6 @@ def parse_environment(container):
 
 
 def parse_env_from(container):
-    """
-    Extract envFrom references.
-    """
 
     sources = []
 
@@ -179,9 +158,6 @@ def parse_env_from(container):
 
 
 def parse_volume_mounts(container):
-    """
-    Extract volume mounts.
-    """
 
     mounts = []
 
@@ -201,9 +177,6 @@ def parse_volume_mounts(container):
 
 
 def parse_probe(container, probe_name):
-    """
-    Extract probe existence.
-    """
 
     return Probe(
         enabled=probe_name in container
@@ -211,9 +184,6 @@ def parse_probe(container, probe_name):
 
 
 def parse_containers(manifest):
-    """
-    Extract containers information.
-    """
 
     containers = []
 
@@ -281,9 +251,6 @@ def parse_containers(manifest):
 
 
 def parse_volumes(manifest):
-    """
-    Extract volumes information.
-    """
 
     volumes = []
 
@@ -341,9 +308,6 @@ def parse_volumes(manifest):
 
 
 def parse_service_account(manifest):
-    """
-    Extract service account configuration.
-    """
 
     pod_spec = (
         manifest.get("spec", {})
@@ -365,9 +329,6 @@ def parse_service_account(manifest):
 
 
 def parse_networking(manifest):
-    """
-    Extract networking security settings.
-    """
 
     pod_spec = (
         manifest.get("spec", {})
@@ -392,9 +353,6 @@ def parse_networking(manifest):
 
 
 def parse_scheduling(manifest):
-    """
-    Extract scheduling information.
-    """
 
     pod_spec = (
         manifest.get("spec", {})
@@ -419,9 +377,6 @@ def parse_scheduling(manifest):
 
 
 def parse_annotations(manifest):
-    """
-    Extract relevant annotations only.
-    """
 
     annotations = (
         manifest.get("metadata", {})
@@ -449,9 +404,6 @@ def parse_annotations(manifest):
 
 
 def parse_workload(manifest):
-    """
-    Main parser function.
-    """
 
     return ParsedWorkload(
         identification=parse_identification(
